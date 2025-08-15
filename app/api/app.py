@@ -48,7 +48,8 @@ class Application:
         logger.info("Service is starting")
 
         self.settings = setup_config(config_path="config.yaml")
-        logger.info("Config setuped")
+        logger.info("Config setupped")
+        
         self._setup_logging()
         setup_store(self)
         setup_services(self)
